@@ -3,73 +3,68 @@
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
 
-Ejercicios de introducción a PHP para 2.º DAW. Incluye variables, condicionales,
-arrays, formularios, sesiones y una mini agenda de contactos.
+Ejercicios primeros de php.
 
-![Imagen de ejemplo](https://placehold.co/800x300?text=Pr%C3%A1ctica+PHP)
+![Imagen de ejemplo](https://desarrolloweb.com/storage/tag_images/actual/6T8eGecQ0XXvTHOvic4ba8mlQXmSEW3vrI7jenmv.png)
 
 ## Ejercicios
 
-| Archivo | Contenido |
-|:--|:--|
-| `presentacion.php` | Variables y salida de texto |
-| `tabla.php` | Formulario y tabla de multiplicar |
-| `alumnos.php` | Arrays, funciones y promedio |
-| `registro.html`, `procesar.php` | Formulario y validación |
-| `bienvenida.php`, `logout.php` | Sesión de usuario |
-| `agenda.php` | Mini agenda guardada en sesión |
+| Archivo                                   | Contenido                         |
+| :---------------------------------------- | :-------------------------------- |
+| `presentacion.php`                        | Variables y salida de texto       |
+| `tabla.php`                               | Formulario y tabla de multiplicar |
+| `alumnos.php`                             | Arrays, funciones y promedio      |
+| `registro.html`, `procesar.php`           | Formulario y validación           |
+| `bienvenida.php`, `logout.php` (No hecho) | Sesión de usuario                 |
+| `agenda.php`                              | Mini agenda guardada en sesión    |
 
 ## Requisitos y ejecución
 
-- PHP 8.0 o superior.
-- Un servidor web local con soporte PHP.
+- PHP 8.0
+- Un servidor web con PHP.
 
-Coloca el proyecto en el directorio público del servidor y abre en el navegador
+Coloca el proyecto en el directorio del servidor y abre en el navegador
 `presentacion.php`, `tabla.php`, `alumnos.php`, `registro.html` o `agenda.php`.
-Los archivos PHP deben ejecutarse desde un servidor local; no basta con abrirlos
-directamente desde el explorador de archivos.
-
+Los archivos se tienen que ejecutar desde un servidor no se puede abrir el archivo y ya esta.
 ## Imagen del proyecto
 
-Guarda una imagen en el directorio `images/` y enlázala así:
-
-![Ilustración local de la práctica](images/practica.svg)
+![Ilustración local de la práctica](images/captura.png)
 
 ## Tareas pendientes
 
 - [x] Completar los ejercicios de variables, tablas y notas.
 - [x] Añadir registro con validación y sesión.
 - [x] Crear la agenda de contactos.
-- [ ] Añadir persistencia de contactos en una base de datos.
+- [ ] Hacer el ejercicio 5
 
 > [!NOTE]
 > Los contactos de la agenda se guardan en la sesión y desaparecen al terminarla.
 
 > [!WARNING]
-> No introduzcas datos personales reales en esta aplicación de demostración.
+> No introduzcas datos personales reales en la aplicación
 
 ## Preguntas frecuentes
 
 <details>
 <summary>¿Por qué no funciona al abrir un archivo PHP directamente?</summary>
 
-Los archivos PHP necesitan ejecutarse en un servidor con PHP habilitado.
+Los archivos PHP necesitan ejecutarse en un servidor con PHP.
 
 </details>
 
 <details>
 <summary>¿Dónde se almacenan los contactos?</summary>
 
-En la sesión del navegador. El proyecto todavía no usa una base de datos.
+En el nevagador
 
 </details>
 
-## Flujo de la agenda
+## Mermaid de la agenda
 
 ```mermaid
 flowchart LR
     A[Usuario] --> B[Formulario de agenda]
-    B --> C{Datos válidos}
+    B --> C[Datos válidos]
     C -->|Sí| D[Guardar contacto en sesión]
     D --> E[Mostrar tabla de contactos]
     C -->|No| F[Mostrar errores]
@@ -77,7 +72,7 @@ flowchart LR
 
 ## Registro de cambios
 
-Consulta el [CHANGELOG.md](CHANGELOG.md) para ver las versiones y modificaciones.
+Mira el [CHANGELOG.md](CHANGELOG.md) para ver las versiones y modificaciones.
 
 ## Colaboración y licencia
 
@@ -89,6 +84,4 @@ en [LICENSE](LICENSE).
 
 ## Autoría
 
-Nombre Apellido — 2.º DAW.
-
-[^1]: Práctica educativa de introducción a PHP.
+José María Gómez Vélez - 2DAW-m.
