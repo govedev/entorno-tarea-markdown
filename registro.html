@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+<body>
+  <form action="procesar.php" method="POST">
+    <label for="name">Nombre:</label>
+    <input id="name" type="text" name="name" required>
+    <label for="email">Correo electrónico:</label>
+    <input id="email" type="email" name="email" required>
+    <label for="edad">Edad:</label>
+    <input id="edad" type="number" name="edad" min="18" required>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
