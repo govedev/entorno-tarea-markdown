@@ -10,7 +10,7 @@ Ejercicios primeros de php.
 ## Ejercicios
 
 | Archivo                                   | Contenido                         |
-| :---------------------------------------- | :-------------------------------- |
+| :---------------------------------------- | --------------------------------: |
 | `presentacion.php`                        | Variables y salida de texto       |
 | `tabla.php`                               | Formulario y tabla de multiplicar |
 | `alumnos.php`                             | Arrays, funciones y promedio      |
