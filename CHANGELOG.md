@@ -1,20 +1,19 @@
 # Changelog
 
-Aquí se documentan los cambios relevantes del proyecto, de más reciente a más
-antiguo.
+Cambios del proyecto
 
 ## [Unreleased]
 
-### Por hacer
+### Doing
 
-- Guardar los contactos en una base de datos.
+- Ejercicio 5.
 
 ## [1.0.0] - 2026-10-13
 
-### Añadido
+### Added
 
 - Ejercicios de presentación, tabla de multiplicar y evaluación de notas.
 - Formulario de registro con validación de nombre, correo y edad.
-- Bienvenida y cierre de sesión.
-- Mini agenda de contactos con almacenamiento en sesión.
+- Agenda de contactos.
 - Documentación inicial del proyecto.
+- Ejercicios 1, 2, 3, 4, 6
