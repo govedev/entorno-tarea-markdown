@@ -78,9 +78,7 @@ Mira el [CHANGELOG.md](CHANGELOG.md) para ver las versiones y modificaciones.
 
 Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para proponer cambios.
 
-Este proyecto utiliza la licencia MIT porque permite estudiar, modificar y
-reutilizar el código, manteniendo el aviso de copyright. El texto completo está
-en [LICENSE](LICENSE).
+Este proyecto utiliza la licencia MIT. El explicacion completa en [LICENSE](LICENSE).
 
 ## Autoría
 
