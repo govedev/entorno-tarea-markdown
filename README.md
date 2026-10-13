@@ -28,7 +28,7 @@ Coloca el proyecto en el directorio del servidor y abre en el navegador
 Los archivos se tienen que ejecutar desde un servidor no se puede abrir el archivo y ya esta.
 ## Imagen del proyecto
 
-![Captura de la práctica](images/captura.png)
+![Ilustración local de la práctica](images/captura.png)
 
 ## Tareas pendientes
 
@@ -85,3 +85,5 @@ en [LICENSE](LICENSE).
 ## Autoría
 
 José María Gómez Vélez - 2DAW-m.
+
+¹Notita de pie de paginita
