@@ -1,4 +1,4 @@
-# Práctica 1: Introducción a PHP
+# Practica 1
 
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-green)
